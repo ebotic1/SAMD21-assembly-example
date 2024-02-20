@@ -11,4 +11,4 @@ I was not able to make this program work without including arduino library in pl
 Running LED game:
 This code is a small game where to progress further you have to press a button when a diode in the middle is turned on. So we will need 3 digital outputs and one interrupt pin for the button.
 
-https://youtu.be/vdaP-d41_Sk
+video: https://youtu.be/vdaP-d41_Sk
