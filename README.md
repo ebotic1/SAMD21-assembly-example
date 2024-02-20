@@ -9,6 +9,5 @@ Known problems:
 I was not able to make this program work without including arduino library in platformio.ini file. The library itself is never included in the code so I am not sure why is this happening.
 
 # Running LED game:
-This code is a small game where to progress further you have to press a button when a diode in the middle is turned on. So we will need 3 digital outputs and one interrupt pin for the button.
-
+This code is a small game where to progress further you have to press a button when a diode in the middle is turned on. Only one diode is turned on at the same time and they cycle with a fixed time step. Every time the button is pressed at the right moment the game speeds up. So to make this game we will need 3 digital outputs and one interrupt pin for the button.
 video: https://youtu.be/vdaP-d41_Sk
